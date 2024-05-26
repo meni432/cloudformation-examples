@@ -33,7 +33,7 @@
 	"Mappings": {
 		"AWSRegionArch2AMI": {
 			"us-east-1": {
-				"HVM64": "ami-0c55b159cbfafe1f0"
+				"HVM64": "ami-0bb84b8ffd87024d8"
 			}
 		}
 	},
@@ -68,8 +68,8 @@
 								"yum update -y\n",
 								"curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash\n",
 								"export NVM_DIR=\"$HOME/.nvm\"\n",
-								"[ -s \"$NVM_DIR/nvm.sh\" ] && \\ . \"$NVM_DIR/nvm.sh\"\n",
-								"[ -s \"$NVM_DIR/bash_completion\" ] && \\ . \"$NVM_DIR/bash_completion\"\n",
+								"[ -s \"$NVM_DIR/nvm.sh\" ] && \\. \"$NVM_DIR/nvm.sh\"\n",
+								"[ -s \"$NVM_DIR/bash_completion\" ] && \\. \"$NVM_DIR/bash_completion\"\n",
 								"nvm install node\n",
 								"cd /home/ec2-user\n",
 								"mkdir app\n",
